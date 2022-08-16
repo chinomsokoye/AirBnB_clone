@@ -71,3 +71,41 @@ div.user, div.description {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+/* Article Structure */
+article div.amenities, div.reviews {
+    margin-top: 40px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+article div.amenities h2, div.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 5px;
+}
+
+article li {
+    list-style-type: none;
+}
+
+article h3 {
+    font-size: 14px;
+}
+
+article p {
+    font-size: 12px;
+}
+
+.tv {
+    list-style-image: url(../images/icon_tv.png);
+}
+
+.wifi {
+    list-style-image: url(../images/icon_wifi.png);
+}
+
+.pet_friend {
+    list-style-image: url(../images/icon_pets.png);
+}
